@@ -16,6 +16,7 @@
             bindings = <&kp LG(LS(RIGHT))>;
             key-positions = <38 4>;
             layers = <0>;
+            timeout-ms = <50>;
         };
     };
 

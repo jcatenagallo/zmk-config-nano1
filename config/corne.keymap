@@ -28,7 +28,7 @@
 
         switch-tabs-right {
             bindings = <&kp LG(RA(RIGHT))>;
-            key-positions = <21 21 16>;
+            key-positions = <16 21>;
             timeout-ms = <500>;
             layers = <1>;
         };

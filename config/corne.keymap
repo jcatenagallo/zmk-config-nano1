@@ -16,7 +16,12 @@
             bindings = <&kp LG(LS(RIGHT))>;
             key-positions = <38 4>;
             layers = <0>;
-            timeout-ms = <50>;
+            timeout-ms = <500>;
+        };
+
+        select-beginning-of-line {
+            bindings = <&kp LG(LS(LEFT_ARROW))>;
+            key-positions = <38 3>;
         };
     };
 

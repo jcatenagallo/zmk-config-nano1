@@ -22,6 +22,8 @@
         select-beginning-of-line {
             bindings = <&kp LG(LS(LEFT_ARROW))>;
             key-positions = <38 3>;
+            layers = <0>;
+            timeout-ms = <500>;
         };
     };
 

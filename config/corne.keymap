@@ -14,14 +14,14 @@
 
         select-end-of-line {
             bindings = <&kp LG(LS(RIGHT))>;
-            key-positions = <38 4>;
+            key-positions = <38 3>;
             layers = <0>;
             timeout-ms = <500>;
         };
 
         select-beginning-of-line {
             bindings = <&kp LG(LS(LEFT_ARROW))>;
-            key-positions = <38 3>;
+            key-positions = <38 2>;
             layers = <0>;
             timeout-ms = <500>;
         };

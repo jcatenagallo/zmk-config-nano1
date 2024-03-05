@@ -25,6 +25,20 @@
             layers = <0>;
             timeout-ms = <500>;
         };
+
+        switch-tabs-right {
+            bindings = <&kp LG(RA(RIGHT))>;
+            key-positions = <21 21 16>;
+            timeout-ms = <500>;
+            layers = <1>;
+        };
+
+        switch-tab-left {
+            bindings = <&kp LG(RA(LEFT_ARROW))>;
+            key-positions = <16 19>;
+            timeout-ms = <500>;
+            layers = <1>;
+        };
     };
 
     keymap {
